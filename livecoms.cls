@@ -385,6 +385,7 @@
 \renewcommand{\AB@affilsepx}{; \protect\Affilfont}
 
 \newcommand{\themetadata}{%
+    \vspace{-0.5cm}
     \textbf{*For correspondence:\\}  \@correspondence\par
     \ifx\empty\@contribution\else
     \bigskip\@contribution\par\fi
